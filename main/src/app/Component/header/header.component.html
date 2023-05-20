@@ -1,0 +1,23 @@
+<header>
+  <div class="main">
+    <div class="he"><a class="title" routerLink="">Food Delar</a>
+    </div>
+    <nav>
+      <ul>
+        <li><a routerLink="/login">Login</a></li>
+        <li class="x"><a routerLink="/dashbord">Infant</a>
+          <div class="con">
+              <li><a routerLink="/profile">profile</a></li>
+              <li><a routerLink="/order">Order</a></li>
+              <li><a routerLink="">logout</a></li>
+          </div>
+        </li>
+        <li><a routerLink="/wishlist">wishlist</a></li>
+        <li><a routerLink="/cart" class="cart">cart<span *ngIf="cartquenty">{{cartquenty}}</span></a></li>
+
+
+      </ul>
+    </nav>
+  </div>
+
+</header>

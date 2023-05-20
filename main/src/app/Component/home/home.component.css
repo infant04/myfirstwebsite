@@ -1,0 +1,85 @@
+*{
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+}
+
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+ul li a img{
+  height: 200px;
+}
+ul li a{
+  color: #000;
+  height: 450px;
+  width: 300px;
+  border: 5px solid lightgray;
+  margin: 1rem;
+  border-radius: 1rem;
+  flex-direction: column;
+  display: flex;
+  overflow: hidden;
+}
+ul li a:hover{
+  opacity: 0.9;
+  transform: scale(1.01);
+}
+.name{
+  text-align: center;
+  color: rgb(14, 228, 143);
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 5px 0;
+}
+.fav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  margin-top: 20px;
+}
+.favarite{
+  color: red;
+  font-size: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+ .not
+{ color: rgb(160, 160, 160);}
+.star{
+  color: #FFD700;
+  font-size: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.fav p{
+  margin: 0;
+}
+.ratt{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.orgin {
+  display: flex;
+}
+.orgin li{
+  margin: 5px;
+  font-size: .8rem;
+  padding: 3px 7px;
+  border-radius: 15px;
+  border: 2px solid rgb(14, 228, 143);
+  color: rgb(2, 122, 251);
+}
+.price{
+  margin: 10px;
+  font-size: 1.5rem;
+  color: rgb(14, 228, 143);
+  font-weight: bold;
+}

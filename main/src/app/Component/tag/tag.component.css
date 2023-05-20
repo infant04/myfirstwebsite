@@ -1,0 +1,31 @@
+*{
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.x{
+  width: 150px;
+  text-align: center;
+  margin: 20px;
+  cursor: pointer;
+  padding: 3px 7px;
+  border-radius: 15px;
+  border: 2px solid rgb(14, 228, 143);
+
+}
+.x a{
+  color: rgb(236, 29, 46);
+
+}
+.x:hover,
+.x a:hover{
+  background-color: rgb(14, 228, 143);
+  color: white;
+}
